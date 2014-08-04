@@ -2,7 +2,7 @@
   "name": "youtube-cute",
   "repo": "bmcmahen/youtube-cute",
   "description": "a nicer way to embed youtube videos. like PrettyEmbed.js without jquery",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "keywords": [],
   "dependencies": {
     "bmcmahen/youtube": "0.1.0",

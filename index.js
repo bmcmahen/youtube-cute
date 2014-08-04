@@ -24,8 +24,6 @@ function YouTubeCute(src, target, options){
   this.el = document.createElement('div');
   this.el.className = 'Youtube-cute';
   this.target = target;
-  this.w = this.target.clientWidth;
-  this.h = this.target.clientHeight;
   this.src = src;
   this.inDOM = false;
   this.options = options || {};
@@ -57,8 +55,8 @@ YouTubeCute.prototype.playVideo = function(){
   empty(this.el);
   this.el.classList.add('playing');
   this.vid = new Youtube(this.src, this.el, {
-    width: this.w,
-    height: this.h
+    width: this.target.clientWidth,
+    height: this.target.clientHeight
   });
   this.vid.play();
   return this;
