@@ -1,8 +1,8 @@
 
 # youtube-cute
 
-  A nicer way to embed youtube videos. Very much inspired by [PrettyEmbed.js]([prettyembed.js](https://github.com/mike-zarandona/PrettyEmbed.js), but I
-wanted something that worked without jQuery.
+  A nicer way to embed youtube videos. Very much inspired by [PrettyEmbed.js](https://github.com/mike-zarandona/PrettyEmbed.js), but I
+wanted something that worked without jQuery. It uses [bmcmahen/youtube](https://github.com/bmcmahen/youtube) for video playback.
 
 ## Installation
 
@@ -17,7 +17,7 @@ Check `example.html`.
 ```javascript
 var YoutubeCute = require('youtube-cute');
 var el = document.getElementById('target');
-var vid = new YoutubeCute('https://www.youtube.com/watch?v=tmocu3lmxr8', target);
+var prettyVid = new YoutubeCute('https://www.youtube.com/watch?v=tmocu3lmxr8', target);
 ```
 
 
