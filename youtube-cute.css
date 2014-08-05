@@ -18,6 +18,7 @@
   height: 100%;
   position: relative;
   cursor: pointer;
+  background-size: cover;
 }
 
 .Youtube-cute:hover:after {
